@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seconde Chance ASBL</title>
+
+<style>
+:root{
+    --gold:#d4af37;
+    --black:#111111;
+    --dark:#1c1c1c;
+    --white:#f5f5f5;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:var(--black);
+    color:var(--white);
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85');
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    padding:120px 20px;
+}
+
+header h1{
+    color:var(--gold);
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:1.2rem;
+    max-width:800px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 30px;
+    background:var(--gold);
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+}
+
+nav{
+    background:var(--dark);
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:var(--gold);
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 10%;
+}
+
+h2{
+    color:var(--gold);
+    margin-bottom:25px;
+    text-align:center;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:var(--dark);
+    padding:25px;
+    border-left:4px solid var(--gold);
+    border-radius:8px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:8px;
+}
+
+.contact{
+    background:var(--dark);
+    padding:30px;
+    border-radius:8px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#000;
+    border-top:2px solid var(--gold);
+}
+
+.highlight{
+    color:var(--gold);
+    font-weight:bold;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#apropos">À propos</a>
+<a href="#services">Services</a>
+<a href="#experience">Expertise</a>
+<a href="#galerie">Galerie</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header>
+<h1>SECONDE CHANCE ASBL</h1>
+
+<p>
+Un nouveau départ au service du réemploi, de la solidarité
+et de la valorisation des biens.
+</p>
+
+<p style="margin-top:20px;">
+12 ans d'existence associative • 25 ans d'expérience en brocante
+</p>
+
+<a class="btn" href="tel:0478569612">
+📞 Devis Gratuit
+</a>
+</header>
+
+<section id="apropos">
+<h2>Qui sommes-nous ?</h2>
+
+<p>
+Depuis plus de <span class="highlight">12 ans</span>,
+Seconde Chance ASBL accompagne les particuliers,
+familles, successions, notaires et associations
+dans le vide maison, le débarras et la valorisation des biens.
+</p>
+
+<br>
+
+<p>
+Grâce à plus de
+<span class="highlight">25 ans d'expérience dans la brocante</span>,
+nous identifions les meubles anciens, objets de collection,
+antiquités et biens susceptibles d'avoir une valeur particulière.
+</p>
+
+<br>
+
+<p>
+Notre mission est de donner une seconde vie aux objets,
+de soutenir les associations partenaires
+et de limiter le gaspillage.
+</p>
+</section>
+
+<section id="services">
+<h2>Nos Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🏠 Vide Maison</h3>
+<p>Maison, appartement, succession et déménagement.</p>
+</div>
+
+<div class="card">
+<h3>🚗 Garage & Cave</h3>
+<p>Débarras complet de caves, greniers et garages.</p>
+</div>
+
+<div class="card">
+<h3>🧹 Nettoyage</h3>
+<p>Remise en état après débarras.</p>
+</div>
+
+<div class="card">
+<h3>🧩 Maison Diogène</h3>
+<p>Interventions discrètes et adaptées.</p>
+</div>
+
+<div class="card">
+<h3>💎 Expertise</h3>
+<p>Recherche et estimation de biens de valeur.</p>
+</div>
+
+<div class="card">
+<h3>🤝 Associations</h3>
+<p>Redistribution vers plusieurs associations partenaires.</p>
+</div>
+
+</div>
+</section>
+
+<section id="experience">
+<h2>Notre Expertise</h2>
+
+<p>
+Notre longue expérience dans la brocante nous permet
+d'identifier rapidement les objets présentant une valeur
+historique, artistique ou commerciale.
+</p>
+
+<br>
+
+<ul>
+<li>Mobilier ancien</li>
+<li>Objets de collection</li>
+<li>Argenterie</li>
+<li>Tableaux</li>
+<li>Bibelots anciens</li>
+<li>Livres et documents</li>
+<li>Collections diverses</li>
+</ul>
+
+<br>
+
+<p>
+Nous proposons des solutions de vente
+dans la plus grande discrétion
+et toujours dans l'intérêt des propriétaires.
+</p>
+</section>
+
+<section>
+<h2>Notre Méthode</h2>
+
+<div class="cards">
+
+<div class="card">1. Visite gratuite</div>
+<div class="card">2. Devis gratuit</div>
+<div class="card">3. Tri et évaluation</div>
+<div class="card">4. Valorisation des biens</div>
+<div class="card">5. Redistribution associative</div>
+<div class="card">6. Nettoyage et remise en ordre</div>
+
+</div>
+</section>
+
+<section id="galerie">
+<h2>Galerie</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1484154218962-a197022b5858" alt="">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" alt="">
+<img src="https://images.unsplash.com/photo-1513694203232-719a280e022f" alt="">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" alt="">
+
+</div>
+
+<p style="text-align:center;margin-top:20px;">
+Ajoutez ici vos propres photos de réalisations.
+</p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+
+<div class="contact">
+
+<h3>📞 Téléphone</h3>
+<p>0478 56 96 12</p>
+
+<br>
+
+<h3>✉️ Email</h3>
+<p>secondechance0@gmail.com</p>
+
+<br>
+
+<h3>🟦 Facebook</h3>
+<p>Ajoutez ici le lien officiel de votre page Facebook.</p>
+
+<br>
+
+<h3>Devis Gratuit</h3>
+<p>
+Contactez-nous par téléphone ou par email.
+Chaque situation est étudiée individuellement afin de proposer
+la solution la plus adaptée.
+</p>
+
+</div>
+</section>
+
+<footer>
+
+<h3>SECONDE CHANCE ASBL</h3>
+
+<p>
+Donner une seconde vie aux objets,
+préserver leur histoire et aider les associations.
+</p>
+
+<p style="margin-top:15px;">
+© 2026 Seconde Chance ASBL
+</p>
+
+</footer>
+
+</body>
+</html>
